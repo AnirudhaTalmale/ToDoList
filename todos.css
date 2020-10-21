@@ -21,14 +21,13 @@ ul{
 }
 
 span{
-	background: #e74c3c;
-	height: 40px;
+	background: red;
 	margin-right: 20px;
 	text-align: center;
 	color: white;
-	width: 0;
 	display: inline-block;
 	transition: 0.2s linear;
+	width: 0;
 	opacity: 0;
 }
 
@@ -39,14 +38,14 @@ li:hover span{
 
 
 li{
-	background: #fff;
+	background: white;
 	height: 40px;
-	color: #666;
+	color: black;
 	line-height: 40px;
 }
 
 li:nth-child(2n){
-	background: #f7f7f7; 
+	background: lightgrey; 
 }
 
 .fa-plus{
@@ -56,25 +55,23 @@ li:nth-child(2n){
 
 
 input{
-	color: #2980b9;
+	color: black;
 	font-size: 18px;
 	background-color: #f7f7f7;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
 	box-sizing: border-box;
-	border: 3px solid rgba(0,0,0,0);
+	border: 2px solid grey;
 }
 
 input:focus{
-	background: #fff;
-	border: 3px solid #2980b9;
+	background-color: #fff;
+	border: 3px solid black;
 }
 
 #container{
-	width: 360px;
-	margin: 100px auto;
+	margin: 100px 470px;
 	border: 2px solid grey;
-	background: #f7f7f7;
 }	
 
 .completed{
